@@ -1,10 +1,9 @@
 {
   "name": "build-colcon",
   "main": "./lib/provider",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Builder for colcon",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/ApexAI/build-colcon",
   "license": "Apache-2.0",
   "engines": {
