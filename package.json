@@ -1,0 +1,24 @@
+{
+  "name": "build-colcon",
+  "main": "./lib/provider",
+  "version": "0.0.0",
+  "description": "Builder for colcon",
+  "keywords": [
+  ],
+  "repository": "https://github.com/ApexAI/build-colcon",
+  "license": "Apache-2.0",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "xml2js": "0.4.19"
+  },
+  "providedServices": {
+    "builder": {
+      "description": "Compile ros2 package with colcon",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  }
+}
